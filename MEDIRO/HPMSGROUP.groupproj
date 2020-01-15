@@ -1,0 +1,204 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F7F9E13E-F4C3-45BC-80FC-24213720DBE9}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="HJinryo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="HHPMS.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="OrderInfo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Documan.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="재료관리_DENTRO\jeryo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="AlliceDynamic.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="pBitToMediro.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="sugaEdit\sugaEdit.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="PReferAlert.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="HHPMSStatics.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\prm\PRMManager.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\DaegiPyo\pDaegipyo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="AutoSMS\AutoSmsServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\_KaKaO_Surem\pKaKao.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="jumgum\HPMSChungGu.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="HJinryo">
+        <MSBuild Projects="HJinryo.dproj"/>
+    </Target>
+    <Target Name="HJinryo:Clean">
+        <MSBuild Projects="HJinryo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HJinryo:Make">
+        <MSBuild Projects="HJinryo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HHPMS">
+        <MSBuild Projects="HHPMS.dproj"/>
+    </Target>
+    <Target Name="HHPMS:Clean">
+        <MSBuild Projects="HHPMS.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HHPMS:Make">
+        <MSBuild Projects="HHPMS.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OrderInfo">
+        <MSBuild Projects="OrderInfo.dproj"/>
+    </Target>
+    <Target Name="OrderInfo:Clean">
+        <MSBuild Projects="OrderInfo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OrderInfo:Make">
+        <MSBuild Projects="OrderInfo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Documan">
+        <MSBuild Projects="Documan.dproj"/>
+    </Target>
+    <Target Name="Documan:Clean">
+        <MSBuild Projects="Documan.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Documan:Make">
+        <MSBuild Projects="Documan.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="jeryo">
+        <MSBuild Projects="재료관리_DENTRO\jeryo.dproj"/>
+    </Target>
+    <Target Name="jeryo:Clean">
+        <MSBuild Projects="재료관리_DENTRO\jeryo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="jeryo:Make">
+        <MSBuild Projects="재료관리_DENTRO\jeryo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AlliceDynamic">
+        <MSBuild Projects="AlliceDynamic.dproj"/>
+    </Target>
+    <Target Name="AlliceDynamic:Clean">
+        <MSBuild Projects="AlliceDynamic.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AlliceDynamic:Make">
+        <MSBuild Projects="AlliceDynamic.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pBitToMediro">
+        <MSBuild Projects="pBitToMediro.dproj"/>
+    </Target>
+    <Target Name="pBitToMediro:Clean">
+        <MSBuild Projects="pBitToMediro.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pBitToMediro:Make">
+        <MSBuild Projects="pBitToMediro.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="sugaEdit">
+        <MSBuild Projects="sugaEdit\sugaEdit.dproj"/>
+    </Target>
+    <Target Name="sugaEdit:Clean">
+        <MSBuild Projects="sugaEdit\sugaEdit.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="sugaEdit:Make">
+        <MSBuild Projects="sugaEdit\sugaEdit.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PReferAlert">
+        <MSBuild Projects="PReferAlert.dproj"/>
+    </Target>
+    <Target Name="PReferAlert:Clean">
+        <MSBuild Projects="PReferAlert.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PReferAlert:Make">
+        <MSBuild Projects="PReferAlert.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HHPMSStatics">
+        <MSBuild Projects="HHPMSStatics.dproj"/>
+    </Target>
+    <Target Name="HHPMSStatics:Clean">
+        <MSBuild Projects="HHPMSStatics.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HHPMSStatics:Make">
+        <MSBuild Projects="HHPMSStatics.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PRMManager">
+        <MSBuild Projects="..\prm\PRMManager.dproj"/>
+    </Target>
+    <Target Name="PRMManager:Clean">
+        <MSBuild Projects="..\prm\PRMManager.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PRMManager:Make">
+        <MSBuild Projects="..\prm\PRMManager.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pDaegipyo">
+        <MSBuild Projects="..\DaegiPyo\pDaegipyo.dproj"/>
+    </Target>
+    <Target Name="pDaegipyo:Clean">
+        <MSBuild Projects="..\DaegiPyo\pDaegipyo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pDaegipyo:Make">
+        <MSBuild Projects="..\DaegiPyo\pDaegipyo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AutoSmsServer">
+        <MSBuild Projects="AutoSMS\AutoSmsServer.dproj"/>
+    </Target>
+    <Target Name="AutoSmsServer:Clean">
+        <MSBuild Projects="AutoSMS\AutoSmsServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AutoSmsServer:Make">
+        <MSBuild Projects="AutoSMS\AutoSmsServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pKaKao">
+        <MSBuild Projects="..\_KaKaO_Surem\pKaKao.dproj"/>
+    </Target>
+    <Target Name="pKaKao:Clean">
+        <MSBuild Projects="..\_KaKaO_Surem\pKaKao.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pKaKao:Make">
+        <MSBuild Projects="..\_KaKaO_Surem\pKaKao.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HPMSChungGu">
+        <MSBuild Projects="jumgum\HPMSChungGu.dproj"/>
+    </Target>
+    <Target Name="HPMSChungGu:Clean">
+        <MSBuild Projects="jumgum\HPMSChungGu.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HPMSChungGu:Make">
+        <MSBuild Projects="jumgum\HPMSChungGu.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="HJinryo;HHPMS;OrderInfo;Documan;jeryo;AlliceDynamic;pBitToMediro;sugaEdit;PReferAlert;HHPMSStatics;PRMManager;pDaegipyo;AutoSmsServer;pKaKao;HPMSChungGu"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="HJinryo:Clean;HHPMS:Clean;OrderInfo:Clean;Documan:Clean;jeryo:Clean;AlliceDynamic:Clean;pBitToMediro:Clean;sugaEdit:Clean;PReferAlert:Clean;HHPMSStatics:Clean;PRMManager:Clean;pDaegipyo:Clean;AutoSmsServer:Clean;pKaKao:Clean;HPMSChungGu:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="HJinryo:Make;HHPMS:Make;OrderInfo:Make;Documan:Make;jeryo:Make;AlliceDynamic:Make;pBitToMediro:Make;sugaEdit:Make;PReferAlert:Make;HHPMSStatics:Make;PRMManager:Make;pDaegipyo:Make;AutoSmsServer:Make;pKaKao:Make;HPMSChungGu:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
